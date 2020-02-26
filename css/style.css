@@ -1,0 +1,77 @@
+
+ html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+input, 
+#wins, #loss {
+  width: 30%;
+  display: block;
+  padding: 10px 0;
+  margin: 5px 0;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+input[type="text"], #wins, #loss
+{
+    font-size:17px;
+}
+h1,
+h2,
+h3 {
+
+  font-family: 'New Rocker', cursive;
+  font-size: 60px;
+  margin-bottom:  10px;
+}
+
+
+
+
+body {
+  /* Location of the image */
+  background-image: url(../images/background_imge.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+.rupee {
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+    width:100px;
+    height:100px;
+    
+    justify-content: center;
+    border: solid;
+    border: solid;
+    background-color: black;
+  background-size: 100%;
+}
+
+#refreshButton {
+  margin-top: 5px;
+  margin-left: 3px;
+  width:50px;
+  height:50px;
+  vertical-align: top;
+}
